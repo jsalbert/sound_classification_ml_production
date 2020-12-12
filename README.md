@@ -1,10 +1,10 @@
 # UrbanSound8k 
 
-In this repository you will find two colab notebooks with code to perform data exploration and train a machine learning model on the UrbanSound8k dataset
+In this repository you will find two colab notebooks with code to perform data exploration and train a machine learning model on the UrbanSound8k dataset.
 
 ## Data Exploration
 
-[Colab Notebook](https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/notebooks/UrbanSound8k_data_exploration.ipynb)
+Observe the dataset statistics and visualize the data: [Colab Notebook](https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/notebooks/UrbanSound8k_data_exploration.ipynb)
 
 <table style="width:100%">
   <tr>
@@ -19,7 +19,7 @@ In this repository you will find two colab notebooks with code to perform data e
 
 ## Machine Learning Application
 
-[Colab Notebook](https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/notebooks/UrbanSound8k_machine_learning.ipynb)
+Train a Convolutional Neural Network to classify the audio samples: [Colab Notebook](https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/notebooks/UrbanSound8k_machine_learning.ipynb)
 
 <img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/urban_sound_confusion_matrix.png?raw=true" alt="fig_confusion" width="500"/>
 
