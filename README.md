@@ -12,7 +12,7 @@ The repository contains:
 1. [A Colab notebook to perform Data Exploration and Analysis](https://github.com/jsalbert/urban_sound8k_deep_learning#data-exploration)
 2. [A Colab notebook to perform Training and Evaluation of a Machine Learning Model](https://github.com/jsalbert/urban_sound8k_deep_learning#machine-learning)
 3. [Instructions to create your own Flask app](https://github.com/jsalbert/urban_sound8k_deep_learning#creating-the-flask-app)
-4. [Instructions to create a Docker image and upload it to AWS Beanstalk to share your app with the world](https://github.com/jsalbert/urban_sound8k_deep_learning#)
+4. [Instructions to create a Docker image and upload it to AWS Beanstalk to share your app with the world](https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/README.md#creating-a-docker-image-and-uploading-to-aws-beanstalk)
 
 ## Data Exploration
 
