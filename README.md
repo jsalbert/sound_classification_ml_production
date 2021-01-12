@@ -1,12 +1,18 @@
 # UrbanSound8k 
 
 In this repository you will find an end to end tutorial of a simple example of machine learning in production.
-We will perform data exploration and analysis, followed by the training and evaluation of a machine learning model, and finally we will deploy an app on AWS using Docker. 
+
+The objective will be to create and deploy in the cloud a machine learning application able to recognize and classify different audio sounds. We will use the UrbanSound8k Dataset, which contains the following 10 sounds: Air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, 
+siren, street music. 
+
+During this tutorial we will perform data exploration and analysis, followed by the training and evaluation of a machine learning model, and finally we will deploy an app on AWS using Docker. 
 
 The repository contains:
 
-- Colab notebooks with code to perform data exploration and train a machine learning model on the UrbanSound8k dataset 
-- Instructions to create your own docker images and upload them to AWS Beanstalk. 
+1. [A Colab notebook to perform Data Exploration and Analysis](https://github.com/jsalbert/urban_sound8k_deep_learning#data-exploration)
+2. [A Colab notebook to perform Training and Evaluation of a Machine Learning Model](https://github.com/jsalbert/urban_sound8k_deep_learning#machine-learning)
+3. [Instructions to create your own Flask app](https://github.com/jsalbert/urban_sound8k_deep_learning#creating-the-flask-app)
+4. [Instructions to create a Docker image and upload it to AWS Beanstalk to share your app with the world](https://github.com/jsalbert/urban_sound8k_deep_learning#)
 
 ## Data Exploration
 
@@ -26,7 +32,7 @@ Observe the dataset statistics and visualize the data:
   </tr>
 </table>
 
-## Machine Learning Modelling
+## Machine Learning 
 
 Train a Convolutional Neural Network to classify the audio samples: 
 
@@ -34,4 +40,8 @@ Train a Convolutional Neural Network to classify the audio samples:
 
 
 <img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/urban_sound_confusion_matrix.png?raw=true" alt="fig_confusion" width="500"/>
+
+## Creating the Flask App
+
+## Creating a Docker Image and Uploading to AWS Beanstalk
 
