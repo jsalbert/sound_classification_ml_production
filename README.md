@@ -1,6 +1,12 @@
 # UrbanSound8k 
 
-In this repository you will find two colab notebooks with code to perform data exploration and train a machine learning model on the UrbanSound8k dataset.
+In this repository you will find an end to end tutorial of a simple example of machine learning in production.
+We will perform data exploration and analysis, followed by the training and evaluation of a machine learning model, and finally we will deploy an app on AWS using Docker. 
+
+The repository contains:
+
+- Colab notebooks with code to perform data exploration and train a machine learning model on the UrbanSound8k dataset 
+- Instructions to create your own docker images and upload them to AWS Beanstalk. 
 
 ## Data Exploration
 
@@ -20,7 +26,7 @@ Observe the dataset statistics and visualize the data:
   </tr>
 </table>
 
-## Machine Learning Application
+## Machine Learning Modelling
 
 Train a Convolutional Neural Network to classify the audio samples: 
 
