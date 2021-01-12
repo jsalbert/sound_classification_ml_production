@@ -69,7 +69,7 @@ python app.py
 ## Creating a Docker Image and Uploading to AWS Elastic Beanstalk
 
 For this part of the tutorial you will need to install [Docker](https://www.docker.com/get-started) and create an account in [Amazon Web Services (AWS)](https://aws.amazon.com/) and [Docker Hub](https://hub.docker.com/).
-I recommend reading and going through [Docker-Curriculum][Docker Curriculum](https://docker-curriculum.com/) for a more extense introduction and a Docker tutorial. 
+I recommend reading and going through [Docker-Curriculum](https://docker-curriculum.com/) for a more extense introduction and a Docker tutorial. 
 
 From Docker-Curriculum:
 
