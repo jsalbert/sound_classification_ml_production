@@ -1,0 +1,9 @@
+{
+  "mode": "mfcc",
+  "sample_rate": 22050,
+  "n_fft": 2048,
+  "hop_length": 512,
+  "n_mfcc": 13,
+  "deltas": true,
+  "max_padding": 174
+}

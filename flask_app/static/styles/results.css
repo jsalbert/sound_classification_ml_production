@@ -1,0 +1,26 @@
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #EEEEEE;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.items {
+    font-size: 15px;
+    line-height: 1.1;
+    text-align: left;
+}
