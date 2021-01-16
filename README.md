@@ -34,7 +34,7 @@ Observe the dataset statistics and visualize the data:
 
 ## Machine Learning 
 
-Train a Convolutional Neural Network to classify the audio samples: 
+Train a Convolutional Neural Network using Keras and Tensorflow to classify audio samples: 
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jsalbert/urban_sound8k_ml_production/blob/main/notebooks/UrbanSound8k_machine_learning.ipynb)
 
