@@ -147,8 +147,9 @@ Follow the next steps:
 
 The environment creation will take some minutes and after that you should be able to access the website where your app is hosted. 
 
+<img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/aws_screen.png?raw=true" alt="fig_waveforms" width="500"/>
 
-Click on the link shown and it should be ready to go. 
+Click on the link shown and it should be ready to go. You can play with your own audios or the [example ones](https://github.com/jsalbert/urban_sound8k_deep_learning/tree/main/audio_files). 
 
 Congratulations! You reached the end of the tutorial. 
 Hope you enjoyed it and hopefully learnt something :)
