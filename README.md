@@ -2,7 +2,7 @@
 
 In this repository you will find an end to end hands-on tutorial of an example of machine learning in production.
 
-The objective will be to create and deploy in the cloud a machine learning application able to recognize and classify different audio sounds. We will use the UrbanSound8k Dataset, which contains the following 10 sounds: Air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, 
+The objective will be to create and deploy in the cloud a machine learning application able to recognize and classify different audio sounds. We will use the well-known [UrbanSound8k Dataset](https://urbansounddataset.weebly.com/urbansound8k.html#10foldCV), which contains the following 10 sounds: Air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, 
 siren, street music. 
 
 During this tutorial we will perform data exploration and analysis, followed by the training and evaluation of a machine learning model, and finally we will deploy our app on the Cloud using [Amazon Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) and [Docker](https://www.docker.com/) for free. 
