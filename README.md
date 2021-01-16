@@ -9,16 +9,16 @@ During this tutorial we will perform data exploration and analysis, followed by 
 
 The repository contains:
 
-1. [A Colab notebook to perform Data Exploration and Analysis](https://github.com/jsalbert/urban_sound8k_deep_learning#data-exploration)
-2. [A Colab notebook to perform Training and Evaluation of a Machine Learning Model](https://github.com/jsalbert/urban_sound8k_deep_learning#machine-learning)
-3. [Instructions to create your own Flask app](https://github.com/jsalbert/urban_sound8k_deep_learning#creating-the-flask-app)
-4. [Instructions to create a Docker image and upload it to AWS Beanstalk to share your app with the world](https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/README.md#creating-a-docker-image-and-uploading-to-aws-beanstalk)
+1. [A Colab notebook to perform Data Exploration and Analysis](https://github.com/jsalbert/urban_sound8k_ml_production#data-exploration)
+2. [A Colab notebook to perform Training and Evaluation of a Machine Learning Model](https://github.com/jsalbert/urban_sound8k_ml_production#machine-learning)
+3. [Instructions to create your own Flask app](https://github.com/jsalbert/urban_sound8k_ml_production#creating-the-flask-app)
+4. [Instructions to create a Docker image and upload it to AWS Beanstalk to share your app with the world](https://github.com/jsalbert/urban_sound8k_ml_production/blob/main/README.md#creating-a-docker-image-and-uploading-to-aws-beanstalk)
 
 ## Data Exploration
 
 Observe the dataset statistics and visualize the data: 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jsalbert/urban_sound8k_deep_learning/blob/main/notebooks/UrbanSound8k_data_exploration.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jsalbert/urban_sound8k_ml_production/blob/main/notebooks/UrbanSound8k_data_exploration.ipynb)
 
 
 <table style="width:100%">
@@ -27,8 +27,8 @@ Observe the dataset statistics and visualize the data:
     <th>Audio Files Mel-Spectogram</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/urban_sound_waveforms.png?raw=true" alt="fig_waveforms" width="500"/></td>
-    <td><img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/urban_sound_spectograms.png?raw=true" alt="fig_spectograms" width="500"/></td>
+    <td><img src="https://github.com/jsalbert/urban_sound8k_ml_production/blob/main/images/urban_sound_waveforms.png?raw=true" alt="fig_waveforms" width="500"/></td>
+    <td><img src="https://github.com/jsalbert/urban_sound8k_ml_production/blob/main/images/urban_sound_spectograms.png?raw=true" alt="fig_spectograms" width="500"/></td>
   </tr>
 </table>
 
@@ -36,10 +36,10 @@ Observe the dataset statistics and visualize the data:
 
 Train a Convolutional Neural Network to classify the audio samples: 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jsalbert/urban_sound8k_deep_learning/blob/main/notebooks/UrbanSound8k_machine_learning.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jsalbert/urban_sound8k_ml_production/blob/main/notebooks/UrbanSound8k_machine_learning.ipynb)
 
 <p align="center">
-<img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/urban_sound_confusion_matrix.png?raw=true" alt="fig_confusion" width="500"/>
+<img src="https://github.com/jsalbert/urban_sound8k_ml_production/blob/main/images/urban_sound_confusion_matrix.png?raw=true" alt="fig_confusion" width="500"/>
 </p>
 
 ## Creating the Flask App
@@ -70,7 +70,7 @@ python app.py
 You should be able to see this screen, upload and classify a sound:
 
 <p align="center">
-<img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/app.png?raw=true" alt="app" width="500"/>
+<img src="https://github.com/jsalbert/urban_sound8k_ml_production/blob/main/images/app.png?raw=true" alt="app" width="500"/>
 </p>
 
 ## Creating a Docker Image and Uploading to AWS Elastic Beanstalk
@@ -155,11 +155,11 @@ Follow the next steps:
 The environment creation will take some minutes and after that you should be able to access the website where your app is hosted. 
 
 <p align="center">
-  <img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/aws_screen.png?raw=true" alt="aws_screen"/>
+  <img src="https://github.com/jsalbert/urban_sound8k_ml_production/blob/main/images/aws_screen.png?raw=true" alt="aws_screen"/>
 </p>
 
 
-Click on the link shown and it should be ready to go. You can play with your own audios or the [example ones](https://github.com/jsalbert/urban_sound8k_deep_learning/tree/main/audio_files). 
+Click on the link shown and it should be ready to go. You can play with your own audios or the [example ones](https://github.com/jsalbert/urban_sound8k_ml_production/tree/main/audio_files). 
 
 CONGRATULATIONS! You reached the end of the tutorial. 
 
