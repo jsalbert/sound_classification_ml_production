@@ -67,6 +67,12 @@ python app.py
 
 3. Access it via [localhost:5000](http://localhost:5000/)
 
+You should be able to see this screen, upload and classify a sound:
+
+<p align="center">
+<img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/app.png?raw=true" alt="app" width="500"/>
+</p>
+
 ## Creating a Docker Image and Uploading to AWS Elastic Beanstalk
 
 For this part of the tutorial you will need to install [Docker](https://www.docker.com/get-started) and create an account in [Amazon Web Services (AWS)](https://aws.amazon.com/) and [Docker Hub](https://hub.docker.com/).
