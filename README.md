@@ -169,4 +169,10 @@ Hope you enjoyed it and hopefully learnt something :)
 **And... Don't forget to shut down the environment to not get charged for extra use of resources!!!**
 
 
+## References
+
+- Urban Sound 8k Dataset -- https://urbansounddataset.weebly.com/urbansound8k.html#10foldCV
+- Docker -- https://www.docker.com/
+- Flask -- https://flask.palletsprojects.com/en/1.1.x/
+- Docker Curriculum -- https://docker-curriculum.com/
 
