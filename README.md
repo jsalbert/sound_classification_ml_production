@@ -9,10 +9,10 @@ During this tutorial we will perform data exploration and analysis, followed by 
 
 The repository contains:
 
-1. [A Colab notebook to perform Data Exploration and Analysis](https://github.com/jsalbert/sound_classification_ml_production#data-exploration)
-2. [A Colab notebook to perform Training and Evaluation of a Machine Learning Model](https://github.com/jsalbert/sound_classification_ml_production#machine-learning)
-3. [Instructions to create your own Flask app](https://github.com/jsalbert/sound_classification_ml_production#creating-the-flask-app)
-4. [Instructions to create a Docker image and upload it to AWS Beanstalk to share your app with the world](https://github.com/jsalbert/sound_classification_ml_production/blob/main/README.md#creating-a-docker-image-and-uploading-to-aws-elastic-beanstalk)
+1. [A Colab notebook to perform Data Exploration and Analysis](#data-exploration)
+2. [A Colab notebook to perform Training and Evaluation of a Machine Learning Model](#machine-learning)
+3. [Instructions to create your own Flask app](creating-the-flask-app)
+4. [Instructions to create a Docker image and upload it to AWS Beanstalk to share your app with the world](#creating-a-docker-image-and-uploading-to-aws-elastic-beanstalk)
 
 ## Data Exploration
 
