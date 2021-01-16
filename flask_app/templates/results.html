@@ -1,0 +1,17 @@
+<html>
+<link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='styles/results.css')}}">
+<title>Results</title>
+  <div class="center-screen">
+    <div class="title">
+      <h1>Results </h1>
+    </div>
+    <div class="text">
+      <p> The top-3 predictions for the file "{{filename}}" have been: </p>
+    <div class="items">
+        {% for class, probability in predictions_to_render.items() %}
+        <p> - {{ class }} with probability: {{ probability }} </p>
+        {% endfor %}
+    </div>
+    </div>
+  </div>
+</html>

@@ -1,0 +1,14 @@
+<html>
+<link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='styles/index.css')}}">
+  <title>Sound Classification</title>
+    <div class="center-screen">
+      <div class="title">
+        <h1> Sound Classification</h1>
+      </div>
+        <h2> Upload new audio file</h2>
+          <form method=post enctype=multipart/form-data>
+            <input type=file name=file>
+            <input type=submit value=Classify>
+          </form>
+    </div>
+</html>
