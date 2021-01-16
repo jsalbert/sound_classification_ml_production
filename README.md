@@ -1,6 +1,6 @@
 # Machine Learning in Production: Sound Classification 
 
-In this repository you will find a hands-on tutorial of an end to end example of machine learning in production.
+In this [repository](https://github.com/jsalbert/sound_classification_ml_production/) you will find a hands-on tutorial of an end to end example of machine learning in production.
 
 The objective will be to create a machine learning application able to classify different audio sounds and deploy it in the cloud. We will use the well-known [UrbanSound8k Dataset](https://urbansounddataset.weebly.com/urbansound8k.html#10foldCV), which contains the following 10 sounds: Air conditioner, car horn, children playing, dog bark, drilling, engine idling, gun shot, jackhammer, 
 siren, street music. 
@@ -50,7 +50,12 @@ We will use [Flask](https://flask.palletsprojects.com/en/1.1.x/) to build our ap
 
 I will provide the `app.py` file containing all the code needed to run it. You will need a Python installation (I was using on 3.8+) and pip to be able to run the following code. 
 
-1. Create a virtual environment using [virtualenv](https://virtualenv.pypa.io/en/latest/) and install library requirements:
+1. Clone this repository:
+
+```
+git clone git@github.com:jsalbert/sound_classification_ml_production.git
+```
+2. Create a virtual environment using [virtualenv](https://virtualenv.pypa.io/en/latest/) and install library requirements:
 
 ```
 pip install virtualenv
@@ -59,13 +64,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-2. Go to the folder `flask_app` and run the app locally in your computer:
+3. Go to the folder `flask_app` and run the app locally in your computer:
 
 ```
 python app.py 
 ```
 
-3. Access it via [localhost:5000](http://localhost:5000/)
+4. Access it via [localhost:5000](http://localhost:5000/)
 
 You should be able to see this screen, upload and classify a sound:
 
