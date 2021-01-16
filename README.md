@@ -161,12 +161,16 @@ The environment creation will take some minutes and after that you should be abl
 
 Click on the link shown and it should be ready to go. You can play with your own audios or the [example ones](https://github.com/jsalbert/sound_classification_ml_production/tree/main/audio_files). 
 
-CONGRATULATIONS! You reached the end of the tutorial. 
 
-Hope you enjoyed it and hopefully learnt something :)
+**CONGRATULATIONS!** 
 
+You reached the end of the tutorial. 
+
+Hope you enjoyed it and hopefully learnt something 🤓 . 
 
 **And... Don't forget to shut down the environment to not get charged for extra use of resources!!!**
+
+I would appreciate any feedback, comment, typo or error correction, please let me know in the [Issues section](https://github.com/jsalbert/sound_classification_ml_production/issues). 
 
 
 ## References
@@ -175,4 +179,3 @@ Hope you enjoyed it and hopefully learnt something :)
 - Docker -- https://www.docker.com/
 - Flask -- https://flask.palletsprojects.com/en/1.1.x/
 - Docker Curriculum -- https://docker-curriculum.com/
-
