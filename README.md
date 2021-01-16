@@ -1,4 +1,4 @@
-# UrbanSound8k 
+# Machine Learning in Production: Sound Classification using UrbanSound8k 
 
 In this repository you will find an end to end hands-on tutorial of an example of machine learning in production.
 
