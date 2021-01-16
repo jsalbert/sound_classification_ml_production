@@ -173,7 +173,7 @@ You reached the end of the tutorial.
 
 Hope you enjoyed it and hopefully learnt something 🤓 . 
 
-**And... Don't forget to shut down the environment to not get charged for extra use of resources!!!**
+**And... Don't forget to shut down the environment to not get charged for extra use of resources 🤑 !!!**
 
 I would appreciate any feedback, comment, typo or error correction, please let me know in the [Issues section](https://github.com/jsalbert/sound_classification_ml_production/issues). 
 
