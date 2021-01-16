@@ -38,8 +38,9 @@ Train a Convolutional Neural Network to classify the audio samples:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jsalbert/urban_sound8k_deep_learning/blob/main/notebooks/UrbanSound8k_machine_learning.ipynb)
 
-
+<p align="center">
 <img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/urban_sound_confusion_matrix.png?raw=true" alt="fig_confusion" width="500"/>
+</p>
 
 ## Creating the Flask App
 
@@ -147,14 +148,19 @@ Follow the next steps:
 
 The environment creation will take some minutes and after that you should be able to access the website where your app is hosted. 
 
-<img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/aws_screen.png?raw=true" alt="fig_waveforms" width="500"/>
+<p align="center">
+  <img src="https://github.com/jsalbert/urban_sound8k_deep_learning/blob/main/images/aws_screen.png?raw=true" alt="aws_screen"/>
+</p>
+
 
 Click on the link shown and it should be ready to go. You can play with your own audios or the [example ones](https://github.com/jsalbert/urban_sound8k_deep_learning/tree/main/audio_files). 
 
-Congratulations! You reached the end of the tutorial. 
+CONGRATULATIONS! You reached the end of the tutorial. 
+
 Hope you enjoyed it and hopefully learnt something :)
 
-Don't forget to shut down the environment to not get charged for extra use of the resources!!!
+
+**And... Don't forget to shut down the environment to not get charged for extra use of resources!!!**
 
 
 
